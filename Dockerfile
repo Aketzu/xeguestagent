@@ -1,4 +1,4 @@
-FROM debian:stable-slim
+FROM alpine:latest
 
 ADD xe-daemon /usr/local/sbin/
 ADD xe-ros-version /usr/local/bin/

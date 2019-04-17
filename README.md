@@ -7,6 +7,9 @@ This repo contains docker image build files and os-service for RancherOS
 1. ros service enable https://raw.githubusercontent.com/Aketzu/xeguestagent/master/xe-guest-agent.yml
 2. ros service up xe-guest-agent
 
+## Notes
+xe-daemon needs `ip` utility in order to report IP addresses back to XenServer
+
 ## License
 
 Dockerfile and other customizations are public domain.
@@ -36,3 +39,5 @@ xe-daemon and xenstore:
     WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
     ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
     POSSIBILITY OF SUCH DAMAGE.
+
+    https://github.com/xenserver/xe-guest-utilities
