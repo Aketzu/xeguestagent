@@ -1,5 +1,5 @@
 xe-guest-agent:
-  image: xe-guest-agent:latest
+  image: Aketzu/xeguestagent:latest
   command: /usr/local/bin/run
   privileged: true
   restart: always

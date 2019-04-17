@@ -4,14 +4,8 @@ This repo contains docker image build files and os-service for RancherOS
 
 ## Usage
 
-1. Copy files to rancher host
-2. system-docker build -t xe-guest-agent .
-3. Copy xe-guest-agent.yml to /var/lib/rancher/conf/
-4. ros service enable /var/lib/rancher/conf/xe-guest-agent.yml
-5. ros service up xe-guest-agent
-
-TODO:
- uploading to docker hub
+1. ros service enable https://raw.githubusercontent.com/Aketzu/xeguestagent/master/xe-guest-agent.yml
+2. ros service up xe-guest-agent
 
 ## License
 
